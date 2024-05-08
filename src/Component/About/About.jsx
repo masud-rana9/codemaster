@@ -4,11 +4,11 @@ import { assets } from "../../assets/assets";
 const About = () => {
   return (
     <div className="about">
-      <div className="about-left">
+      <div data-aos="fade-left" className="about-left">
         <img className="about-img" src={assets.about} alt="" />
         <img className="play-icon" src={assets.play_icon} alt="" />
       </div>
-      <div className="about-right">
+      <div data-aos="fade-up" className="about-right">
         <h3>ABOUT UNIVERSITY</h3>
         <h2>Nurturing Tomorrow's Leaders Today</h2>
         <p>

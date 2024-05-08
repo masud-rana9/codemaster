@@ -3,7 +3,7 @@
   align-items: center;
   justify-content: space-between;
   margin: 80px auto;
-  padding: 0 80px;
+
   width: 900px;
 }
 .contact-left {
@@ -38,4 +38,7 @@
 }
 .contact-info img {
   width: 25px;
+}
+.contact-info p {
+  max-width: 300px;
 }

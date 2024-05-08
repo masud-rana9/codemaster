@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useEffect } from "react";
 import Navber from "./Component/Navber/Navber";
 import Hero from "./Component/Hero/Hero";
 import Programs from "./Component/Programs/Programs";
@@ -7,8 +7,14 @@ import About from "./Component/About/About";
 import Campus from "./Component/Campus/Campus";
 import Testimonials from "./Component/Testimonials/Testimonials";
 import Contact from "./Component/Contact/Contact";
+import Aos from "aos";
+import "aos/dist/aos.css";
 
 const App = () => {
+  useEffect(() => {
+    Aos.init({ duration: 1500 });
+  }, []);
+
   return (
     <div>
       <Navber />

@@ -4,7 +4,7 @@ import { assets } from "../../assets/assets";
 const Contact = () => {
   return (
     <div className="contact">
-      <div className="contact-left">
+      <div data-aos="fade-left" className="contact-left">
         <div className="contact-title">
           <h2>Send us a message</h2>
           <img src={assets.msg_icon} alt="" />
@@ -29,7 +29,7 @@ const Contact = () => {
         </div>
       </div>
 
-      <form className="contact-right">
+      <form data-aos="fade-right" className="contact-right">
         <label>Your Name</label>
         <input type="text" placeholder="Enter your name" name="name" />
         <label>Phone Number</label>
