@@ -20,7 +20,7 @@ const Testimonials = () => {
   };
 
   return (
-    <div className="testimonials">
+    <div id="testimonial" className="testimonials">
       <img
         onClick={sliderForward}
         className="next-btn"

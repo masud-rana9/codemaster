@@ -3,7 +3,7 @@ import "./Hero.css";
 import { assets } from "../../assets/assets";
 const Hero = () => {
   return (
-    <div className="hero container">
+    <div id="hero" className="hero container">
       <div className="hero-title">
         <h1>We Ensure better education for a better world</h1>
         <p>

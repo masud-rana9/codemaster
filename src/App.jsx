@@ -7,8 +7,10 @@ import About from "./Component/About/About";
 import Campus from "./Component/Campus/Campus";
 import Testimonials from "./Component/Testimonials/Testimonials";
 import Contact from "./Component/Contact/Contact";
+
 import Aos from "aos";
 import "aos/dist/aos.css";
+import Footer from "./Footer/Footer";
 
 const App = () => {
   useEffect(() => {
@@ -29,6 +31,7 @@ const App = () => {
         <Testimonials />
         <Title subTitle="CONTACT US" title="Get in Touch" />
         <Contact />
+        <Footer />
       </div>
     </div>
   );

@@ -3,7 +3,7 @@ import "./Campus.css";
 import { assets } from "../../assets/assets";
 const Campus = () => {
   return (
-    <div data-aos="fade-up" className="campus">
+    <div id="campus" data-aos="fade-up" className="campus">
       <div className="gallery">
         <img src={assets.gallery_1} alt="" />
         <img src={assets.gallery_2} alt="" />
